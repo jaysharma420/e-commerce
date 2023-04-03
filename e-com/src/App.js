@@ -1,12 +1,14 @@
-import { Button } from 'react-bootstrap';
 import './App.css';
+import RouterFile from './Componenets/RouterFile';
 
 function App() {
   return (
-    <div className="App">
-     <h1>E-Com-Dashnoard</h1>
-     <button>Normal Button</button><br/><br/>
-     <Button variant='secondary'>Bootstrap Button</Button>
+    <div className='App'>
+      {/* <Header/> */}
+      <RouterFile>
+
+      </RouterFile>
+      {/* <h1 style={{textAlign:"right"}}>E-Com-Dashnoard</h1> */}
     </div>
   );
 }
